@@ -49,7 +49,10 @@ if (options.help) {
 process.once('SIGINT', () => process.exit(0));
 
 hubsync(options)
+	.then(() => {
+		process.exit(0);
+	})
 	.catch(error => {
 		console.error(error.message);
-		process.exit(error ? 1 : 0);
+		process.exit(1);
 	});
