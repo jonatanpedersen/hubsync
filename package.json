@@ -8,7 +8,7 @@
     "url": "git+https://github.com/jonatanpedersen/hubsync.git"
   },
   "bin": {
-    "matriarch": "bin/hubsync-cli.js"
+    "hubsync": "bin/hubsync-cli.js"
   },
   "preferGlobal": true,
   "author": "Jonatan Pedersen",
