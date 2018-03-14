@@ -14,6 +14,15 @@ npm i hubsync -g
 hubsync -t [personal access token] -d [working directory]
 ```
 
+## Debug
+
+hubsync is using the `debug` module to provide debug information:
+
+``` bash
+export DEBUG=hubsync
+export DEBUG_COLORS=1
+```
+
 ## License
 
 MIT
