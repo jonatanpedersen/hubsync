@@ -23,6 +23,8 @@
     "async": "2.6.0",
     "command-line-args": "4.0.7",
     "command-line-usage": "4.0.1",
-    "glob": "7.1.2"
+    "debug": "3.1.0",
+    "glob": "7.1.2",
+    "moment": "2.21.0"
   }
 }

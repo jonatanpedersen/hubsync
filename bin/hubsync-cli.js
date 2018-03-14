@@ -4,8 +4,12 @@ const commandLineUsage = require('command-line-usage');
 const hubsync = require('../');
 
 const optionDefinitions = [
-	{ name: 'token', alias: 't', type: String, defaultValue: process.env.HUBSYNC_TOKEN, description: 'A personal access token for GitHub.' },
-	{ name: 'dir', alias: 'd', type: String, defaultValue: process.cwd(), description: 'Working directory' },
+	{ name: 'token', alias: 't', type: String, defaultValue: process.env.HUBSYNC_TOKEN, description: 'Personal access token for GitHub. Defaults to $HUBSYNC_TOKEN.' },
+	{ name: 'concurrency', alias: 'c', type: Number, defaultValue: 10, description: 'Concurrent child processes. Defaults to 10.' },
+	{ name: 'cwd', alias: 'd', type: String, defaultValue: process.cwd(), description: 'Working directory. Defaults to current working directory.' },
+	{ name: 'clone', type: Boolean, defaultValue: true, description: 'Clone new repositories.' },
+	{ name: 'pull', type: Boolean, defaultValue: true, description: 'Pull existing repositories.' },
+	{ name: 'filter', alias: 'f', type: String, defaultValue: '*', description: 'Filter repositories.' },
 	{ name: 'help', alias: 'h', type: Boolean, description: 'Print this usage guide.' }
 ];
 
