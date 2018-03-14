@@ -1,0 +1,28 @@
+{
+  "name": "hubsync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/hubsync.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonatanpedersen/hubsync.git"
+  },
+  "bin": {
+    "matriarch": "bin/hubsync-cli.js"
+  },
+  "preferGlobal": true,
+  "author": "Jonatan Pedersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonatanpedersen/hubsync/issues"
+  },
+  "homepage": "https://github.com/jonatanpedersen/hubsync#readme",
+  "dependencies": {
+    "@octokit/rest": "15.2.2",
+    "ansi-escape-sequences": "4.0.0",
+    "async": "2.6.0",
+    "command-line-args": "4.0.7",
+    "command-line-usage": "4.0.1",
+    "glob": "7.1.2"
+  }
+}
