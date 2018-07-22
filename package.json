@@ -1,7 +1,7 @@
 {
   "name": "hubsync",
   "version": "1.1.0",
-  "description": "",
+  "description": "Clones/pulls all personal and organization repositories",
   "main": "lib/hubsync.js",
   "repository": {
     "type": "git",
@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/jonatanpedersen/hubsync#readme",
   "dependencies": {
-    "@octokit/rest": "15.2.2",
+    "@octokit/rest": "15.9.4",
     "ansi-escape-sequences": "4.0.0",
-    "async": "2.6.0",
-    "command-line-args": "4.0.7",
-    "command-line-usage": "4.0.1",
+    "async": "2.6.1",
+    "command-line-args": "5.0.2",
+    "command-line-usage": "5.0.5",
     "debug": "3.1.0",
     "glob": "7.1.2",
-    "moment": "2.21.0"
+    "moment": "2.22.2"
   }
 }

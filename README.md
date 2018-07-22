@@ -28,7 +28,7 @@ $ hubsync --help
 
 hubsync
 
-  Syncronize with GitHub.
+  Clones/pulls all personal and organization repositories.
 
 Options
 

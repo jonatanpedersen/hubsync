@@ -21,7 +21,7 @@ const sections = [
 		optionList: optionDefinitions
 	},
 	{
-		content: 'GitHub: [underline]{https://github.com/jonatanpedersen/hubsync}'
+		content: 'GitHub: https://github.com/jonatanpedersen/hubsync'
 	}
 ];
 
